@@ -1,0 +1,11 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "s3_cross_account_access",
+    "SourceRuntime": "python3.6",
+    "CodeKey": "s3_cross_account_access.zip",
+    "InputParameters": "{}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::S3::Bucket"
+  }
+}
